@@ -1,0 +1,440 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%; 
+    margin: 0;       
+}
+
+body img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+.mercado-liebre {
+    background-color: #eac926;
+    width: 100%; 
+}
+
+.parte-principal {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    background-color: rgb(243, 221, 225);
+    font-size: 24px;
+    padding: 15px;
+}
+
+h1.titulares {
+    font-size: 24px;
+    padding: 15px;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: rgb(6, 236, 6);
+    margin: 5px;
+}
+
+.descripcion {
+    font-size: 16px;
+    margin: 10px;
+    display: none;
+}
+
+
+.ingresa {
+    width: 25px;
+    height: 13px;
+}
+
+.compras {
+    width: 25px;
+    height: 13px;
+}
+
+.card {
+    width: 25px;
+    height: 13px;
+}
+
+.link-navbar {
+    display: none;
+}
+
+  .link-navbar {  
+    margin: 0;
+    padding: 0;
+}
+
+.link-navbar a {
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    padding: 5px, 0;
+    font-size: 17px;
+  }
+
+.burger-menu { 
+  background-color: #1259c3;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  margin: auto;
+  display: table;
+  padding: 5px; 
+  }
+
+.logo-mercado {
+    width: 30%;
+    margin: 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+.banner-inicio {
+    width: 100%;
+    background-color: rgb(243, 221, 225);
+
+  }
+
+.titulares{
+    text-size-adjust: 18px;
+  }
+
+.conteiner {
+    background-color: white;
+   opacity: 0.9;
+  }
+
+.conteiner-pruduc {
+    width: 90%;
+    background-color: #b0fff7;
+    padding: 10px;
+  }
+
+.ultimo-visto img {
+    width: 90%;
+    margin: 0px;
+  }
+
+
+.ultimo-visto {
+    background-color: white;
+    width: 88%;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #ebebeb;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+.articulos {
+    background-color: white;
+    width: 88%;
+    border-top: 3px solid #ebebeb;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+.articulos:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.articulos img{
+    width: 90%;
+    margin: 0px;
+}
+
+
+.precio{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: rgb(6, 236, 6);
+}
+
+.detalles .descripcion{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    transition-property: color, padding-top;
+    transition-duration: 0.5s;
+}
+
+
+section {
+    background-color: rgb(243, 221, 225);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ 
+ article {
+    border-bottom: 2px solid #ebebeb;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.producto {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+.color-back {
+    background-color: white;
+}
+
+
+.buscar{
+    width: 50%;
+    display: flex;
+}
+
+.buscar input{
+    width: 100%;
+}
+
+input {
+    justify-content: center;
+   display: none;
+   width: 400px;
+   height: 10%;
+   align-items: center;
+   background-color: #f2f2f2;
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .precio .descuentos {
+    width: 30%;
+    display: none;
+  }
+
+
+  .descuentos {
+    width: 70%;
+    margin: 10px;
+   }
+
+
+    .icon-final {
+    color: #1259c3;
+    height: 30px; 
+}
+
+    .info-pes {
+    padding: 35px 45px 20px;
+    text-align: center;
+}
+
+    .ultimo-tex {
+    text-align: center;
+}
+
+.envio {
+padding: 5px;
+}
+
+    /*   tablet   */
+@media (max-width: 401px) { 
+    
+    .parte-principal {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+     
+    .logo-mercado {
+        max-width: 100%;
+        align-content: center;
+    }
+
+    input {
+        max-width: 80%;
+    }
+    
+    
+}
+
+
+@media (min-width: 767px) {
+
+
+    .link-navbar {
+        display: block;
+     }
+
+
+     .descripcion {
+        display: block;
+     }
+
+     .burger-menu {
+        display: none;
+     }
+    
+     
+     .inicio {
+        display: flex;
+       justify-content: space-between;
+     }
+
+     .cuotas-interes {
+        min-width: 350px;
+        text-align: right;
+     }
+
+     .mano-dollar {
+        max-width: 350px;
+        font-size: 18px;
+        margin: 3px;
+     }
+
+    .link-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .link-navbar ul {
+        display: flex;        
+    }
+
+    .link-navbar li {
+        list-style: none;
+        margin: 5px;
+    }
+
+    input {
+        display: block;
+        max-width: 90%;
+    }
+
+    .articulos {
+        display: block;
+        width: 20%;
+    }
+    
+ 
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .ultimo-visto {
+        width: 20%;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer-card{
+        width: 30%;
+    }   
+
+    .info-pes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteiner {
+        display: flex;
+    }
+    
+}
+
+
+
+
+  /*   compu   */
+  @media (max-width: 768px) {
+    
+    input {
+      display: block;
+      width: 200px;
+    }
+
+    .mano-dollar {
+        font-size: 100px;
+    }
+
+    .articulos {
+        display: block;
+    }
+    
+    .buscar {
+       max-width: 50%;
+    }
+
+    .img.logo-mercado {
+        max-width: 50%;
+    }
+   
+  
+    .burger-menu {
+        margin: auto;
+        
+        padding: 10px;
+    }
+    
+    .barra-busqueda {
+        display: block;
+    }
+
+    .mano-dollar {
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .ultimo-visto {
+        width: 40%;
+        justify-content: center;
+    }
+    
+
+    .articulos {
+        width: 40%;
+      }
+  
+
+   .section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+  }    
